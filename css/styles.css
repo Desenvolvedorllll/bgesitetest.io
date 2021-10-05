@@ -96,6 +96,32 @@ strong {
 	font: 500 0.8125rem/1.125rem "Montserrat", sans-serif;
 }
 
+.tm-padding-top-bottom-100 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.tm-work-h3 {
+  color: #eb5424;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  padding-bottom: 10px;
+}
+.work-wrapper {
+  border: 0px solid #666;
+  border-radius: 12px;
+  text-align: center;
+  padding: 30px 40px 80px 40px;
+  -webkit-transition: all 0.6s ease-in;
+          transition: all 0.6s ease-in;
+}
+.work-wrapper:hover { border-color: #eb5424; }
+.work-wrapper .fa {
+  color: #888888;
+  font-size: 60px;
+  padding-bottom: 40px;
+}
+
 .btn-solid-reg {
 	display: inline-block;
 	padding: 1.1875rem 1.875rem 1.1875rem 1.875rem;
@@ -210,7 +236,7 @@ strong {
 	transition: all 0.2s ease;
 }
 
-/* IE10+ hack to solve lower label text position compared to the rest of the browsers */
+
 @media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {  
 	.label-control {
 		top: 0.9375rem;
@@ -274,7 +300,6 @@ strong {
 
 
 
-/* Form Success And Error Message Animation - Animate.css */
 @-webkit-keyframes tada {
 	from {
 		-webkit-transform: scale3d(1, 1, 1);
@@ -543,6 +568,13 @@ strong {
     100% {
         opacity: 1;
     }
+}
+
+.style {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
 }
 
 .navbar-custom .dropdown-toggle:focus { 
